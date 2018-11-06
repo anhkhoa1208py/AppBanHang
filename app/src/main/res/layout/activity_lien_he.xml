@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".fragment.LienHeFragment">
+    <android.support.v7.widget.Toolbar
+        android:background="#64b354"
+        app:titleTextColor="#f1edec"
+        app:title="Thông tin"
+        android:id="@+id/toolbarlienhe"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/lienhe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/lienhe"
+        android:text="Liên hệ với chúng tôi"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#fafafa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:background="@drawable/boder"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imglienhe1"
+        android:layout_margin="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/hinhnguoi"/>
+        <TextView
+            android:id="@+id/txtlienhe1"
+            android:layout_gravity="center"
+            android:text="Họ và tên: Huỳnh Quang Toản"
+            android:textColor="#080808"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boder"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imglienhe2"
+                android:layout_margin="10dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/email"/>
+            <TextView
+                android:id="@+id/txtlienhe2"
+                android:text="Email : huynhquangtoan1997@gmail. com"
+                android:textColor="#080808"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imglienhe3"
+                android:layout_margin="10dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/dienthoai"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/txtlienhe3"
+                android:text="Điện thoại: 0981225493"
+                android:textColor="#080808"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>
+

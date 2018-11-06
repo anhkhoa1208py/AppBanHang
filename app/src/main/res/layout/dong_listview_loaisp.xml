@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imageviewloaisp"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/textviewloaisp"
+        android:layout_margin="5dp"
+        android:text="Loại sản phẩm"
+        android:paddingLeft="20dp"
+        android:textSize="25sp"
+        android:textColor="#f20"
+        android:layout_gravity="left|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

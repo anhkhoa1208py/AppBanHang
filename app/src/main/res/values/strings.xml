@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">App bán hàng</string>
+    <string name="title_activity_thongtin_googlemap">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>
